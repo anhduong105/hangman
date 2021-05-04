@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dtad_Hangman" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/dtad_Hangman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dtad_Hangman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="animal1.txt" />
+		<Unit filename="animal2.txt" />
+		<Unit filename="draw.cpp" />
+		<Unit filename="draw.h" />
+		<Unit filename="environment1.txt" />
+		<Unit filename="environment2.txt" />
+		<Unit filename="fruits1.txt" />
+		<Unit filename="fruits2.txt" />
+		<Unit filename="hangman3.0.cpp" />
+		<Unit filename="highscore.txt" />
+		<Unit filename="landscape1.txt" />
+		<Unit filename="landscape2.txt" />
+		<Unit filename="ogden_picturable_200.txt" />
+		<Unit filename="utility.cpp" />
+		<Unit filename="utility.h" />
+		<Unit filename="vegetables1.txt" />
+		<Unit filename="vegetables2.txt" />
+		<Unit filename="weather1.txt" />
+		<Unit filename="weather2.txt" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
